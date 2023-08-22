@@ -1,0 +1,33 @@
+// colors
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+$primary: #aa0601;
+$secondary: #650300;
+
+
+
+// font-family
+$font-tc: 'Noto Sans TC', sans-serif;
+$font-en: 'Roboto', sans-serif;
+
+
+// spacing
+$base-spacing: 4px;
+$spacing-1: $base-spacing; // 4px
+$spacing-2: $base-spacing * 2; // 8px
+$spacing-3: $base-spacing * 3; // 12px
+$spacing-4: $base-spacing * 4; // 16px
+$spacing-6: $base-spacing * 6; // 24px
+$spacing-8: $base-spacing * 8; // 32px 
+$spacing-9: $base-spacing * 9; // 32px
+$spacing-10: $base-spacing * 10; // 40px
+$spacing-12: $base-spacing * 12; // 48px
+$spacing-14: $base-spacing * 14; // 56px
+$spacing-16: $base-spacing * 16; // 64px
+$spacing-18: $base-spacing * 18; // 72px
+$spacing-20: $base-spacing * 20; // 80px
+$spacing-22: $base-spacing * 22; // 88px
+$spacing-24: $base-spacing * 24; // 96px

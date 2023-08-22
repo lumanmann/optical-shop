@@ -1,0 +1,26 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: $spacing-3;
+  padding-right: $spacing-3;
+
+  @include pad {
+    max-width: 720px;
+    padding-left: $spacing-9;
+    padding-right: $spacing-9;
+  }
+
+  @include mobile {
+    max-width: 372px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+@mixin flex-space-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

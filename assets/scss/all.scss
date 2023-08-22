@@ -1,5 +1,16 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// helper
+@import './helper/variables';
+@import './helper/reset';
+@import './helper/base';
+@import './helper/mixin';
+@import './helper/utilities';
 
 
-@import './pages/index.scss';
+// layout
+@import './layout/header';
+@import './layout/footer';
+
+// pages
+@import './pages/index';
+
+

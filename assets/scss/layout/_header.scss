@@ -1,3 +1,69 @@
-.header{
-  
+.navbar {
+  @include bg-primary;
+  padding: 16px 0;
+
+  @include mobile {
+    padding-bottom: 0;
+  }
+}
+
+.navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+}
+
+.logo {
+  width: 80px;
+
+  @include mobile {
+    margin: 0 0 16px 16px;
+  }
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+
+  @include mobile {
+    flex-wrap: wrap;
+  }
+}
+
+.navbar-item {
+  height: 100%;
+
+  @include mobile {
+    width: 50%;
+    margin-right: 0px;
+    border: 1px solid white;
+  }
+}
+
+.nav-list a {
+  height: 100%;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 8px 32px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 0;
+  }
+}
+
+.nav-list a:hover {
+    color: $secondary;
+}
+
+.navbar-item:last-child a {
+  padding-right: 0;
 }
