@@ -25,3 +25,9 @@
 @mixin bg-white {
   background-color: white;
 }
+
+// flex
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
