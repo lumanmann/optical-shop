@@ -1,12 +1,8 @@
-.faq {
-  @include bg-white;
-  padding: 96px 0 80px 0;
+.faq-item {
+  margin-bottom: $spacing-8;
+}
 
-  @include pad {
-    padding: 80px 0 80px 0;
-  }
-
-  @include mobile {
-    padding: 40px 0 64px 0;
-  }
+.faq-item h4 {
+  font-size: 20px;
+  font-weight: bold;
 }
