@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optical | Store</title>
+    <link
+      rel="icon"
+      href="../assets/images/1690122570.ico"
+      type="image/x-icon"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <div class="container">
+      <div class="content-section">
+        <h2 class="title">門市據點</h2>
+
+        <div class="store-dropdown">
+          <span>選擇地區</span>
+          <select class="store-select">
+            <option>台北市</option>
+            <option>台中市</option>
+            <option>高雄市</option>
+          </select>
+        </div>
+
+        <!-- store item -->
+        <div class="store-info">
+          <div class="store-info-item mr-24">
+            <img
+              src="../assets/images/store-1.png"
+              alt="store"
+              class="store-info-img"
+            />
+            <div class="store-info-detail">
+              <div class="store-info-title">
+                <h4>台北中山旗艦店</h4>
+              </div>
+              <hr/>
+              <ul class="store-indo-content">
+                <li class="flex mb-8">
+                  <span class="material-symbols-outlined mr-8"> call </span>
+                  <p>電話：(02)000-1234</p>
+                </li>
+                <li class="flex mb-8">
+                  <span class="material-symbols-outlined mr-8"> schedule </span>
+                  <p>營業時間：10:00-21:00</p>
+                </li>
+                <li class="flex">
+                  <span class="material-symbols-outlined mr-8">
+                    location_on
+                  </span>
+                  <p>地址：台北市中山區南京東路25巷2-1號</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <img
+            src="../assets/images/store-location.png"
+            class="store-location"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
