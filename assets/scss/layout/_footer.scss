@@ -17,8 +17,16 @@ footer {
 }
 
 .contact {
-  font-size: 36px;
+  max-width: 100%;
+}
 
+.contact p {
+  font-size: clamp(20px, 50%, 36px);
+
+  @include pad {
+    font-size: clamp(25px, 50%, 36px);
+  }
+  
   @include mobile {
     font-size: 16px;
   }
@@ -29,6 +37,10 @@ footer {
   font-size: 16px;
   margin-bottom: $spacing-9;
 
+  @include pad {
+    word-break: break-all;
+  }
+
   @include mobile {
     display: none;
   }
@@ -37,6 +49,11 @@ footer {
 .footer-sitemap li {
   margin-right: 48px;
   font-size: 16px;
+
+  @include pad {
+    margin-right: clamp(20px, 1vw, 48px);
+  }
+
 }
 
 .footer-social-media-list {
