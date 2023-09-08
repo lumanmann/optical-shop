@@ -24,7 +24,7 @@ footer {
   font-size: clamp(20px, 50%, 36px);
 
   @include pad {
-    font-size: clamp(25px, 50%, 36px);
+    font-size: clamp(20px, 50%, 36px);
   }
   
   @include mobile {
@@ -51,7 +51,7 @@ footer {
   font-size: 16px;
 
   @include pad {
-    margin-right: clamp(20px, 1vw, 48px);
+    margin-right: clamp(25px, 1vw, 48px);
   }
 
 }

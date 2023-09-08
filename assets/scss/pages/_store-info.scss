@@ -7,6 +7,7 @@
 }
 
 .store-info-item {
+  max-width: calc(40% - 12px);
   margin-right: 24px;
 
   @include pad {
@@ -24,7 +25,7 @@
 .store-info-detail {
   border: 1px solid #00000020;
   padding: 8px 24px 16px 24px;
-  max-width: calc(50% - 12px);
+  
 
   @include mobile {
     max-width: 100%;
@@ -32,8 +33,7 @@
 }
 
 .store-info-img {
-  max-width: calc(50% - 12px);
-  max-height: 224px;
+  max-width: 100%;
 
   @include pad {
     margin-right: 24px;
@@ -52,6 +52,7 @@
 }
 
 .store-info-content {
+  max-width: 100%;
   color: $font-black;
   font-size: 20px;
   padding: 16px 24px;
@@ -60,6 +61,6 @@
 }
 
 .store-location {
-  max-width: 100%;
+  max-width: calc(54% - 12px);
   max-height: 414px;
 }
