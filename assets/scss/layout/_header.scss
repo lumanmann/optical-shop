@@ -53,7 +53,14 @@
   color: #ffffff;
   padding: 8px 32px;
 
-  @media (max-width: 768px) {
+
+  @include pad {
+    font-size: clamp(16px, 10%, 20px);
+    text-align: center;
+    padding: 8px clamp(16px, 10%, 32px);
+  }
+
+  @include mobile {
     font-size: 16px;
     text-align: center;
     padding: 12px 0;
